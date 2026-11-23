@@ -1,4 +1,11 @@
-# ConicFolio: Ultra-Fast Conic Portfolio Optimization for Systematic Alpha
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/conicfolio-wordmark-dark.png">
+    <img alt="conicfolio" src="assets/conicfolio-wordmark.png" width="380">
+  </picture>
+</p>
+
+<h3 align="center">Ultra-Fast Conic Portfolio Optimization for Systematic Alpha</h3>
 
 <div align="center">
 
