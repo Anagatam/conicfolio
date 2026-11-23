@@ -4,7 +4,7 @@ Head-to-head empirical benchmark evaluating solve latency across public optimiza
 
 ---
 
-## ⚡ Latency Benchmark Table
+## Latency Benchmark Table
 
 | Optimization Family | ConicFolio Engine | Solve Latency | Public Open-Source Baseline | Speedup Factor |
 | :--- | :--- | :--- | :--- | :--- |

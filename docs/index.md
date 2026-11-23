@@ -6,7 +6,7 @@ ConicFolio provides a high-performance Python interface to exact interior-point 
 
 ---
 
-## ⚡ Key Highlights
+## Key Highlights
 
 - **34.3x Faster Solve Latency**: Solves a 15-asset universe in **0.29 ms** (vs 9.94 ms to 106.79 ms in public alternatives).
 - **Zero Local Solver Dependencies**: Works out-of-the-box on macOS, Linux, and Windows with zero compiler configuration.
@@ -16,7 +16,7 @@ ConicFolio provides a high-performance Python interface to exact interior-point 
 
 ---
 
-## 📊 Speed Benchmark Comparison
+## Performance Benchmarks
 
 ConicFolio's Spinu Newton engine outpaces legacy open-source solvers by orders of magnitude on identical real market return matrices:
 
@@ -24,10 +24,11 @@ ConicFolio's Spinu Newton engine outpaces legacy open-source solvers by orders o
 
 ---
 
-## 🚀 Navigation
+## Documentation Sitemap
 
 - **[Quickstart](quickstart.md)**: Install via `pip` and run an optimization in 3 lines of Python.
 - **[Model Selection Guide](models/index.md)**: Choose between Risk Parity, HRP, HERC, and CVaR.
 - **[Empirical Benchmarks](benchmarks.md)**: Head-to-head performance benchmarks on 1,257 days of real market data.
 - **[Free API vs Enterprise](enterprise.md)**: Developer tier vs institutional confidential enclaves.
+- **[Security & Privacy](security.md)**: Audited data handling architecture and logging sanitization.
 - **[API Reference](api_reference.md)**: Parameter documentation for all public estimators.
