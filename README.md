@@ -2,19 +2,19 @@
 
 <div align="center">
 
-[![PyPI version](https://img.shields.io/pypi/v/conicfolio.svg?logo=pypi&logoColor=white&color=3775A9&label=pypi)](https://pypi.org/project/conicfolio/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/conicfolio.svg?logo=python&logoColor=white&color=3776AB&label=python)](https://pypi.org/project/conicfolio/)
-[![PyPI Downloads](https://img.shields.io/badge/downloads-25k%2B%2Fmo-22C55E?logo=pypi&logoColor=white)](https://pypi.org/project/conicfolio/)
-[![License](https://img.shields.io/badge/license-Apache--2.0-D22128.svg?logo=apache&logoColor=white)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-475569.svg)](https://pypi.org/project/conicfolio/)
-[![Architecture](https://img.shields.io/badge/arch-x86__64%20%7C%20arm64-1E293B.svg)](https://conicfolio.com)
+[![PyPI version](https://img.shields.io/pypi/v/conicfolio.svg?logo=pypi&logoColor=white&color=0284C7&label=pypi)](https://pypi.org/project/conicfolio/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/conicfolio.svg?logo=python&logoColor=white&color=2563EB&label=python)](https://pypi.org/project/conicfolio/)
+[![PyPI Downloads](https://img.shields.io/badge/downloads-25k%2B%2Fmo-059669?logo=pypi&logoColor=white)](https://pypi.org/project/conicfolio/)
+[![License](https://img.shields.io/badge/license-Apache--2.0-DC2626.svg?logo=apache&logoColor=white)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-0284C7.svg)](https://pypi.org/project/conicfolio/)
+[![Architecture](https://img.shields.io/badge/arch-x86__64%20%7C%20arm64-6366F1.svg)](https://conicfolio.com)
 
-[![CI Status](https://img.shields.io/github/actions/workflow/status/Anagatam/conicfolio/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&color=2EA043)](https://github.com/Anagatam/conicfolio/actions)
-[![Documentation](https://img.shields.io/badge/docs-Read%20the%20Docs-1E88E5.svg?logo=readthedocs&logoColor=white)](https://conicfolio.readthedocs.io/)
-[![Test Suite](https://img.shields.io/badge/tests-75%20passing-0EA5E9.svg?logo=pytest&logoColor=white)](https://github.com/Anagatam/conicfolio)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Anagatam/conicfolio/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&color=16A34A)](https://github.com/Anagatam/conicfolio/actions)
+[![Documentation](https://img.shields.io/badge/docs-Read%20the%20Docs-0EA5E9.svg?logo=readthedocs&logoColor=white)](https://conicfolio.readthedocs.io/)
+[![Test Suite](https://img.shields.io/badge/tests-75%20passing-10B981.svg?logo=pytest&logoColor=white)](https://github.com/Anagatam/conicfolio)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-F43F5E.svg?logo=codecov&logoColor=white)](https://github.com/Anagatam/conicfolio)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-4F46E5.svg)](http://mypy-lang.org/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-475569.svg)](https://github.com/psf/black)
+[![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-7C3AED.svg)](http://mypy-lang.org/)
 
 [![Solve Latency](https://img.shields.io/badge/solve%20latency-%3C%200.5ms-8B5CF6.svg)](https://conicfolio.com)
 [![Algorithm Engine](https://img.shields.io/badge/engine-Spinu%20Newton%20%7C%20SOCP%20%7C%20APG-0D9488.svg)](https://conicfolio.com)
@@ -24,8 +24,8 @@
 
 [![Market Dataset](https://img.shields.io/badge/dataset-1%2C257%20real%20sessions-059669.svg)](conicfolio/data/)
 [![Status](https://img.shields.io/badge/status-production--ready-10B981.svg)](https://conicfolio.com)
-[![Support Email](https://img.shields.io/badge/support-support%40conicfolio.com-F97316.svg)](mailto:support@conicfolio.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-84CC16.svg)](CONTRIBUTING.md)
+[![Support Email](https://img.shields.io/badge/support-support%40conicfolio.com-EA580C.svg)](mailto:support@conicfolio.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-65A30D.svg)](CONTRIBUTING.md)
 
 **Enterprise-Grade Quantitative Portfolio Optimization Suite for Systematic Asset Managers & Quantitative Researchers.**
 
@@ -53,9 +53,9 @@
 
 Every chart below is mathematically calculated using **ConicFolio's actual algorithms** executed on the **bundled institutional market dataset** (1,257 trading days, 2019–2024).
 
-### 1. Measured Solver Execution Latency: ConicFolio vs Baseline
+### 1. Measured Solver Execution Latency: ConicFolio vs Standard Solvers
 
-Empirically measured execution times on real covariance slices ($N = 5$ to $N = 25$ assets). ConicFolio's Spinu Newton-Raphson engine delivers deterministic sub-millisecond execution (0.22 ms to 0.47 ms), demonstrating a **74x hardware acceleration** over general non-linear solvers (SLSQP). Native Accelerated Projected Gradient (APG) achieves 0.28 ms solve times on quadratic simplex bounds with zero heap allocations.
+Empirically measured execution times on real market covariance slices ($N = 5$ to $N = 25$ assets) across 200 iterations per universe size. ConicFolio's unconstrained Spinu Newton-Raphson engine delivers deterministic sub-millisecond execution (**0.19 ms to 0.29 ms**), significantly outperforming standard general solvers (Standard OSQP: 0.35 ms to 0.41 ms, Standard SLSQP: 0.35 ms to 0.83 ms, Standard L-BFGS-B: 1.32 ms to 4.91 ms, and Native APG: 2.23 ms to 3.87 ms) with zero dynamic heap allocations in hot execution loops.
 
 <div align="center">
   <img src="assets/benchmark_speed_comparison.png" alt="ConicFolio Speed Benchmark Comparison" width="850"/>
