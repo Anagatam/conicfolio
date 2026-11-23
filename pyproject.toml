@@ -36,5 +36,5 @@ dev = [
 
 [project.urls]
 Homepage = "https://conicfolio.com"
-Documentation = "https://conicfolio.com/docs"
+Documentation = "https://conicfolio.readthedocs.io/"
 Repository = "https://github.com/Anagatam/conicfolio"

@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://pypi.org/project/conicfolio/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
 [![CI Status](https://github.com/Anagatam/conicfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Anagatam/conicfolio/actions)
+[![Docs](https://img.shields.io/badge/docs-Read%20the%20Docs-blue.svg)](https://conicfolio.readthedocs.io/)
 [![Speed](https://img.shields.io/badge/benchmark-34.3x%20faster-emerald.svg)](https://conicfolio.com)
 [![API Status](https://img.shields.io/badge/API%20Gateway-Online%20(Free%20Tier)-brightgreen.svg)](https://conicfolio.com)
 
