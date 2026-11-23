@@ -9,7 +9,7 @@ description = "Public Python SDK for ConicFolio: High-Performance Conic Portfoli
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    { name = "ConicFolio Labs", email = "community@conicfolio.com" }
+    { name = "ConicFolio Labs", email = "support@conicfolio.com" }
 ]
 license = "Apache-2.0"
 classifiers = [

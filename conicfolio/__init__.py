@@ -19,6 +19,8 @@ from conicfolio.client import (
 )
 from conicfolio.data import load_market_data
 
+load_real_market_universe = load_market_data
+
 __version__ = "2.9.0"
 __all__ = [
     "BaseConicClient",
@@ -30,4 +32,5 @@ __all__ = [
     "set_api_key",
     "set_api_endpoint",
     "load_market_data",
+    "load_real_market_universe",
 ]

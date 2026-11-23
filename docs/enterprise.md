@@ -25,4 +25,4 @@ For Tier-1 institutions, ConicFolio is deployed as an encrypted **Enclave Image 
 - **Zero-Knowledge Security**: Even root sysadmins or cloud providers cannot dump memory or inspect proprietary models.
 - **Audit Attestation**: Emits cryptographic Karush-Kuhn-Tucker duality certification (`< 1.0e-12`) for compliance audits.
 
-To request an institutional trial appliance, contact [enterprise@conicfolio.com](mailto:enterprise@conicfolio.com) or visit [conicfolio.com](https://conicfolio.com).
+To request an institutional trial appliance, contact [support@conicfolio.com](mailto:support@conicfolio.com) or visit [conicfolio.com](https://conicfolio.com).

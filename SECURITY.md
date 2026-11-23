@@ -97,7 +97,7 @@ ConicFolio incorporates continuous automated security and quality testing:
 
 If you identify a potential security vulnerability or have questions regarding data privacy controls:
 
-- **Security Contact**: [security@conicfolio.com](mailto:security@conicfolio.com)
+- **Security Contact**: [support@conicfolio.com](mailto:support@conicfolio.com)
 - **PGP / Secure Communications**: Available upon request.
 - **Response SLA**: Initial triage within 24 business hours; remediation timelines communicated transparently based on severity.
 - Please do not submit vulnerability reports to public GitHub issue trackers.

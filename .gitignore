@@ -44,3 +44,8 @@ venv.bak/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated HTML artifacts (Strictly excluded to prevent HTML bloat in GitHub language stats)
+*.html
+assets/*.html
+docs/assets/*.html
