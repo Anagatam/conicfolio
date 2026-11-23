@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conicfolio"
+version = "2.9.0"
+description = "Public Python SDK for ConicFolio: High-Performance Conic Portfolio Optimization API (Equal Risk Contribution, HRP, HERC, CVaR)"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "ConicFolio Labs", email = "community@conicfolio.com" }
+]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "requests>=2.28.0",
+    "scikit-learn>=1.1.0",
+    "pandas>=1.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://conicfolio.com"
+Documentation = "https://conicfolio.com/docs"
+Repository = "https://github.com/Anagatam/conicfolio"
