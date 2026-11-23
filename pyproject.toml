@@ -11,14 +11,13 @@ requires-python = ">=3.9"
 authors = [
     { name = "ConicFolio Labs", email = "community@conicfolio.com" }
 ]
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Financial and Insurance Industry",
     "Intended Audience :: Science/Research",
     "Topic :: Office/Business :: Financial :: Investment",
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
     "numpy>=1.22.0",
@@ -26,6 +25,9 @@ dependencies = [
     "scikit-learn>=1.1.0",
     "pandas>=1.4.0",
 ]
+
+[tool.setuptools.packages.find]
+include = ["conicfolio*"]
 
 [project.optional-dependencies]
 dev = [
