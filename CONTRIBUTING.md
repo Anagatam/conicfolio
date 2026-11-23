@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the **ConicFolio Public Python SDK**!
 
-We welcome community contributions to improve our Scikit-Learn wrapper, data connectors, documentation, benchmarks, and Jupyter tutorials.
+We welcome community contributions to improve our Python client SDK, data connectors, documentation, benchmarks, and Jupyter tutorials.
 
 ---
 
@@ -30,7 +30,7 @@ pytest tests -q
 
 ## 📜 Contribution Guidelines
 
-1. **Scikit-Learn Compliance**: All portfolio models must inherit from `BaseConicClient` and implement `fit(X, y)` and `predict(X)`.
+1. **Standard Estimator API**: All portfolio models must inherit from `BaseConicClient` and implement `fit(X, y)` and `predict(X)`.
 2. **Type Hints & Clean Code**: Use Python 3.9+ type annotations on all public functions.
 3. **Tests Required**: Every bug fix or feature addition must include a corresponding test in `tests/test_sdk.py`.
 4. **Zero Solver Code**: Remember that this repository is the public thin-client SDK. Mathematical interior-point kernels are executed via the hosted API or on-premise enclaves.

@@ -2,7 +2,7 @@
 
 Welcome to the official documentation for **ConicFolio**, the high-performance quantitative portfolio optimization suite.
 
-ConicFolio provides a standardized Scikit-Learn interface to exact interior-point second-order cone programming (SOCP), exponential cones, and Spinu Newton-Raphson solvers—solving complex multi-asset allocations in **under 1 millisecond**.
+ConicFolio provides a high-performance Python interface to exact interior-point second-order cone programming (SOCP), exponential cones, and Spinu Newton-Raphson solvers—solving complex multi-asset allocations in **under 1 millisecond**.
 
 ---
 
@@ -10,7 +10,7 @@ ConicFolio provides a standardized Scikit-Learn interface to exact interior-poin
 
 - **34.3x Faster Solve Latency**: Solves a 15-asset universe in **0.29 ms** (vs 9.94 ms to 106.79 ms in public alternatives).
 - **Zero Local Solver Dependencies**: Works out-of-the-box on macOS, Linux, and Windows with zero compiler configuration.
-- **Scikit-Learn Standard API**: Native `fit(returns)` and `predict()` integration for quantitative research and backtesting.
+- **Standard Estimator API**: Native `fit(returns)` and `predict()` integration for quantitative research and backtesting.
 - **Free Developer API**: Generous 60 requests/minute tier covering up to 100 assets per universe.
 - **Institutional Enclaves**: Dedicated on-premise AWS Nitro Enclaves with silicon-level RAM encryption and air-gapped security for Tier-1 institutions.
 

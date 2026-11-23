@@ -2,7 +2,7 @@
 ===============================================================================
 CONICFOLIO PUBLIC PYTHON SDK
 ===============================================================================
-Official Scikit-Learn compliant client for ConicFolio Hosted Optimization API.
+Official client for ConicFolio Hosted Optimization API.
 Free tier: 60 requests / minute, up to 100 assets.
 ===============================================================================
 """

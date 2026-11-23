@@ -1,6 +1,6 @@
 """
 Unit tests for the public ConicFolio Python SDK.
-Verifies payload serialization, scikit-learn compliance, and data loading.
+Verifies payload serialization, estimator methods, and data loading.
 """
 
 import pytest

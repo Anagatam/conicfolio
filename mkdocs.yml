@@ -52,4 +52,5 @@ nav:
       - Tail Risk & CVaR: models/tail_risk.md
   - Empirical Benchmarks: benchmarks.md
   - Free API vs Enterprise: enterprise.md
+  - Security & Privacy: security.md
   - API Reference: api_reference.md

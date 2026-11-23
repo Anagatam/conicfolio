@@ -55,18 +55,19 @@ model.fit(returns)
 
 ---
 
-## 4. Scikit-Learn Pipeline Integration
+## 4. Standard Estimator Interface
 
-ConicFolio estimators are 100% compliant with Scikit-Learn:
+ConicFolio models follow standard Python estimator conventions (`fit`, `predict`, `fit_predict`), allowing seamless integration into custom quantitative pipelines:
 
 ```python
-from sklearn.pipeline import Pipeline
 import conicfolio as cf
 
-pipeline = Pipeline([
-    ('optimizer', cf.RiskParity())
-])
+# Initialize and fit model
+model = cf.RiskParity()
+model.fit(returns)
 
-pipeline.fit(returns)
-weights = pipeline.named_steps['optimizer'].weights_
+# Extract optimal allocations and solve metrics
+weights = model.weights_
+print(f"Optimal Asset Weights: {weights}")
+print(f"Solve Time: {model.solve_time_ms_:.2f} ms")
 ```

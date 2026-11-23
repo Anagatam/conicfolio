@@ -2,7 +2,7 @@
 ===============================================================================
 CONICFOLIO PUBLIC THIN-CLIENT CORE
 ===============================================================================
-Official Scikit-Learn wrapper for ConicFolio Hosted Optimization API.
+Official client for ConicFolio Hosted Optimization API.
 ===============================================================================
 """
 
@@ -10,7 +10,25 @@ from typing import Optional, Dict, Any, Union, List
 import os
 import numpy as np
 import requests
-from sklearn.base import BaseEstimator
+
+
+class BaseEstimator:
+    """Standard Python estimator base providing parameter inspection and configuration."""
+
+    def get_params(self, deep: bool = True) -> Dict[str, Any]:
+        params = dict(getattr(self, "parameters", {}))
+        params["model_name"] = getattr(self, "model_name", None)
+        return params
+
+    def set_params(self, **params):
+        for key, value in params.items():
+            if hasattr(self, key):
+                setattr(self, key, value)
+            else:
+                if not hasattr(self, "parameters"):
+                    self.parameters = {}
+                self.parameters[key] = value
+        return self
 
 
 _DEFAULT_ENDPOINT = os.getenv("CONICFOLIO_API_URL", "https://api.conicfolio.com/v1/optimize/solve")

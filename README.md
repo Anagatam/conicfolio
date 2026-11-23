@@ -20,12 +20,12 @@
 
 ## ⚡ Overview
 
-**ConicFolio** provides a Scikit-Learn compliant interface for high-speed portfolio optimization. It solves complex asset allocation models—including **Equal Risk Contribution (Risk Parity)**, **Hierarchical Risk Parity (HRP)**, **Hierarchical Equal Risk Contribution (HERC)**, and **Downside Tail-Risk Optimization (CVaR)**—in **under 1 millisecond**.
+**ConicFolio** provides a high-speed Python interface for institutional portfolio optimization. It solves complex asset allocation models—including **Equal Risk Contribution (Risk Parity)**, **Hierarchical Risk Parity (HRP)**, **Hierarchical Equal Risk Contribution (HERC)**, and **Downside Tail-Risk Optimization (CVaR)**—in **under 1 millisecond**.
 
 - 🚀 **34.3x Faster Execution**: Solves a 15-asset universe in **0.29 ms** (vs 9.94 ms to 106.79 ms in public alternatives).
 - 🧩 **Zero Solver Compilation Overhead**: Runs immediately on any OS (macOS, Linux, Windows) without C/C++ compiler setup or licensing friction.
 - 📉 **Real-World Institutional Data**: Includes 1,257 trading days (2019–2024) of real market returns across 25 institutional instruments.
-- 🎯 **Scikit-Learn Standard API**: Seamless `fit(returns)` and `predict()` integration for quantitative backtesting pipelines.
+- 🎯 **Standard Estimator API**: Seamless `fit(returns)` and `predict()` integration for quantitative backtesting pipelines.
 
 ---
 
@@ -85,7 +85,7 @@ import conicfolio as cf
 # 1. Load bundled 5-year real institutional market dataset
 returns = cf.load_market_data(n_assets=10)
 
-# 2. Fit model using familiar scikit-learn API
+# 2. Fit model using standard estimator API
 model = cf.RiskParity()
 model.fit(returns)
 
