@@ -1,0 +1,55 @@
+site_name: ConicFolio Documentation
+site_description: High-Performance Quantitative Portfolio Optimization Suite
+site_author: ConicFolio Labs
+site_url: https://conicfolio.readthedocs.io/
+repo_name: Anagatam/conicfolio
+repo_url: https://github.com/Anagatam/conicfolio
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: emerald
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: emerald
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+
+nav:
+  - Overview: index.md
+  - Quickstart: quickstart.md
+  - Model Guide:
+      - Selection Guide: models/index.md
+      - Equal Risk Contribution: models/risk_parity.md
+      - Hierarchical Allocation (HRP & HERC): models/hierarchical.md
+      - Tail Risk & CVaR: models/tail_risk.md
+  - Empirical Benchmarks: benchmarks.md
+  - Free API vs Enterprise: enterprise.md
+  - API Reference: api_reference.md
