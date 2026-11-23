@@ -2,30 +2,30 @@
 
 <div align="center">
 
-[![PyPI version](https://img.shields.io/pypi/v/conicfolio.svg?logo=pypi&logoColor=white&color=10b981&label=pypi)](https://pypi.org/project/conicfolio/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/conicfolio.svg?logo=python&logoColor=white&color=0284c7&label=python)](https://pypi.org/project/conicfolio/)
-[![PyPI Downloads](https://img.shields.io/badge/downloads-25k%2B%2Fmo-10b981?logo=pypi&logoColor=white)](https://pypi.org/project/conicfolio/)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg?logo=apache&logoColor=white)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-64748b.svg)](https://pypi.org/project/conicfolio/)
-[![Architecture](https://img.shields.io/badge/arch-x86__64%20%7C%20arm64-334155.svg)](https://conicfolio.com)
+[![PyPI version](https://img.shields.io/pypi/v/conicfolio.svg?logo=pypi&logoColor=white&color=3775A9&label=pypi)](https://pypi.org/project/conicfolio/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/conicfolio.svg?logo=python&logoColor=white&color=3776AB&label=python)](https://pypi.org/project/conicfolio/)
+[![PyPI Downloads](https://img.shields.io/badge/downloads-25k%2B%2Fmo-22C55E?logo=pypi&logoColor=white)](https://pypi.org/project/conicfolio/)
+[![License](https://img.shields.io/badge/license-Apache--2.0-D22128.svg?logo=apache&logoColor=white)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-475569.svg)](https://pypi.org/project/conicfolio/)
+[![Architecture](https://img.shields.io/badge/arch-x86__64%20%7C%20arm64-1E293B.svg)](https://conicfolio.com)
 
-[![CI Status](https://img.shields.io/github/actions/workflow/status/Anagatam/conicfolio/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&color=10b981)](https://github.com/Anagatam/conicfolio/actions)
-[![Documentation](https://img.shields.io/badge/docs-Read%20the%20Docs-0284c7.svg?logo=readthedocs&logoColor=white)](https://conicfolio.readthedocs.io/)
-[![Test Suite](https://img.shields.io/badge/tests-75%20passing-10b981.svg?logo=pytest&logoColor=white)](https://github.com/Anagatam/conicfolio)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg?logo=codecov&logoColor=white)](https://github.com/Anagatam/conicfolio)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Anagatam/conicfolio/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&color=2EA043)](https://github.com/Anagatam/conicfolio/actions)
+[![Documentation](https://img.shields.io/badge/docs-Read%20the%20Docs-1E88E5.svg?logo=readthedocs&logoColor=white)](https://conicfolio.readthedocs.io/)
+[![Test Suite](https://img.shields.io/badge/tests-75%20passing-0EA5E9.svg?logo=pytest&logoColor=white)](https://github.com/Anagatam/conicfolio)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-F43F5E.svg?logo=codecov&logoColor=white)](https://github.com/Anagatam/conicfolio)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-10b981.svg)](http://mypy-lang.org/)
+[![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-4F46E5.svg)](http://mypy-lang.org/)
 
-[![Solve Latency](https://img.shields.io/badge/solve%20latency-%3C%200.5ms-8b5cf6.svg)](https://conicfolio.com)
-[![Algorithm Engine](https://img.shields.io/badge/engine-Spinu%20Newton%20%7C%20SOCP%20%7C%20APG-0284c7.svg)](https://conicfolio.com)
-[![Memory Management](https://img.shields.io/badge/memory-zero--allocation%20RAM-10b981.svg)](https://conicfolio.com)
-[![Data Retention](https://img.shields.io/badge/data%20retention-zero%20retention-10b981.svg)](SECURITY.md)
-[![Security Policy](https://img.shields.io/badge/security-audited%20stateless-10b981.svg)](SECURITY.md)
+[![Solve Latency](https://img.shields.io/badge/solve%20latency-%3C%200.5ms-8B5CF6.svg)](https://conicfolio.com)
+[![Algorithm Engine](https://img.shields.io/badge/engine-Spinu%20Newton%20%7C%20SOCP%20%7C%20APG-0D9488.svg)](https://conicfolio.com)
+[![Memory Management](https://img.shields.io/badge/memory-zero--allocation%20RAM-06B6D4.svg)](https://conicfolio.com)
+[![Data Retention](https://img.shields.io/badge/data%20retention-zero%20retention-D97706.svg)](SECURITY.md)
+[![Security Policy](https://img.shields.io/badge/security-audited%20stateless-E11D48.svg)](SECURITY.md)
 
 [![Market Dataset](https://img.shields.io/badge/dataset-1%2C257%20real%20sessions-059669.svg)](conicfolio/data/)
-[![Status](https://img.shields.io/badge/status-production--ready-10b981.svg)](https://conicfolio.com)
-[![Support Email](https://img.shields.io/badge/support-support%40conicfolio.com-f59e0b.svg)](mailto:support@conicfolio.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Status](https://img.shields.io/badge/status-production--ready-10B981.svg)](https://conicfolio.com)
+[![Support Email](https://img.shields.io/badge/support-support%40conicfolio.com-F97316.svg)](mailto:support@conicfolio.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-84CC16.svg)](CONTRIBUTING.md)
 
 **Enterprise-Grade Quantitative Portfolio Optimization Suite for Systematic Asset Managers & Quantitative Researchers.**
 
@@ -320,7 +320,7 @@ To generate a free API key, visit [conicfolio.com](https://conicfolio.com). For 
 
 ## License & Security
 
-- **License**: The public Python SDK is released under the [Apache-2.0 License](LICENSE).
+- **License**: The public Python SDK is released under the [Apache-2.0 License](LICENSE). Copyright &copy; 2026 Anagatam Technologies Private Limited. All rights reserved.
 - **Contributing**: Please review our [Contributing Guidelines](CONTRIBUTING.md).
 - **Security Policy**: For data handling architecture, logging sanitization, and vulnerability disclosure, see [SECURITY.md](SECURITY.md).
 - **Contact Support**: [support@conicfolio.com](mailto:support@conicfolio.com)

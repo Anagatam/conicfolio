@@ -6,7 +6,7 @@ This section presents reproducible empirical benchmarks evaluating solve latency
 
 ## 1. Solver Execution Latency & Asymptotic Scaling
 
-ConicFolio's Spinu Newton-Raphson engine outpaces standard quadratic programming and general non-linear solvers by orders of magnitude on identical covariance matrices. The right panel demonstrates deterministic execution across 1,000 independent runs with zero tail latency drift:
+ConicFolio's Spinu Newton-Raphson engine outpaces standard quadratic programming and general non-linear solvers by orders of magnitude on identical covariance matrices. Empirical measurements demonstrate deterministic sub-millisecond execution across independent runs with zero tail latency drift:
 
 ![ConicFolio Speed Benchmark Comparison](assets/benchmark_speed_comparison.png)
 
@@ -26,15 +26,15 @@ ConicFolio's Spinu Newton-Raphson engine outpaces standard quadratic programming
 
 ## 2. Conditional Value-at-Risk (CVaR) Downside Tail-Risk Profile
 
-Direct second-order cone formulation of Expected Shortfall at a 95% confidence level. The upper panel illustrates the unhedged tail-risk exposure concealed by naive Gaussian Mean-Variance. The lower panel highlights actual peak-to-trough drawdown protection during historical market shocks (-11.4% vs -33.9% during the March 2020 liquidity crisis):
+Direct second-order cone formulation of Expected Shortfall at a 95% confidence level. The curve delineates the optimal convex Pareto frontier balancing annualized expected return against downside tail loss:
 
 ![CVaR Tail-Risk Efficient Frontier & Crisis Profiles](assets/efficient_frontier_cvar.png)
 
 ---
 
-## 3. 5-Year Out-of-Sample Backtest: Cumulative Returns & Rolling Underwater Drawdown
+## 3. 5-Year Out-of-Sample Backtest: Capital Compounding & Outperformance
 
-Simulated out-of-sample performance of $10,000 invested across 1,257 consecutive trading sessions (2019–2024). ConicFolio HERC and Risk Parity significantly outperform traditional 60/40 and S&P 500 benchmarks on a risk-adjusted basis while capping peak drawdown to under 10%:
+Simulated out-of-sample performance of $10,000 invested across 1,257 consecutive trading sessions (2019–2024). ConicFolio HERC and Risk Parity significantly outperform traditional 60/40 and S&P 500 benchmarks on a risk-adjusted basis while capping peak drawdown to under 18.1%:
 
 ![Cumulative Returns & Underwater Drawdown](assets/cumulative_returns_drawdown.png)
 
