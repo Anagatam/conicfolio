@@ -23,17 +23,6 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-475569.svg)](https://github.com/psf/black)
 [![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-7C3AED.svg)](http://mypy-lang.org/)
 
-[![Solve Latency](https://img.shields.io/badge/solve%20latency-%3C%200.5ms-8B5CF6.svg)](https://conicfolio.com)
-[![Algorithm Engine](https://img.shields.io/badge/engine-Spinu%20Newton%20%7C%20SOCP%20%7C%20APG-0D9488.svg)](https://conicfolio.com)
-[![Memory Management](https://img.shields.io/badge/memory-zero--allocation%20RAM-06B6D4.svg)](https://conicfolio.com)
-[![Data Retention](https://img.shields.io/badge/data%20retention-zero%20retention-D97706.svg)](SECURITY.md)
-[![Security Policy](https://img.shields.io/badge/security-audited%20stateless-E11D48.svg)](SECURITY.md)
-
-[![Market Dataset](https://img.shields.io/badge/dataset-1%2C257%20real%20sessions-059669.svg)](conicfolio/data/)
-[![Status](https://img.shields.io/badge/status-production--ready-10B981.svg)](https://conicfolio.com)
-[![Support Email](https://img.shields.io/badge/support-support%40conicfolio.com-EA580C.svg)](mailto:support@conicfolio.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-65A30D.svg)](CONTRIBUTING.md)
-
 **Deterministic Sub-Millisecond Convex Conic, Second-Order Cone & Machine Learning Portfolio Optimization for Systematic Hedge Funds.**
 
 [Overview](#overview) • [Empirical Performance & Visualizations](#empirical-performance--visualizations) • [Backtest Performance Table](#institutional-backtest-performance-table-2019--2024) • [Quickstart](#quickstart) • [Optimization Capabilities](#institutional-optimization-capabilities) • [Model Selection](#model-selection-guide) • [Benchmarking Protocol](#benchmarking-methodology--specifications) • [Code Standards](#code-style-testing--architecture) • [Deployment Models](#deployment-models)
