@@ -19,7 +19,7 @@
 [![CI Status](https://img.shields.io/github/actions/workflow/status/Anagatam/conicfolio/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white&color=16A34A)](https://github.com/Anagatam/conicfolio/actions)
 [![Documentation](https://img.shields.io/badge/docs-Read%20the%20Docs-0EA5E9.svg?logo=readthedocs&logoColor=white)](https://conicfolio.readthedocs.io/)
 [![Test Suite](https://img.shields.io/badge/tests-75%20passing-10B981.svg?logo=pytest&logoColor=white)](https://github.com/Anagatam/conicfolio)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-F43F5E.svg?logo=codecov&logoColor=white)](https://github.com/Anagatam/conicfolio)
+[![codecov](https://codecov.io/gh/Anagatam/conicfolio/graph/badge.svg?token=af628088-6090-4762-a4dc-8cb9da5d695c)](https://codecov.io/gh/Anagatam/conicfolio)
 [![Code Style](https://img.shields.io/badge/code%20style-black-475569.svg)](https://github.com/psf/black)
 [![Type Checking](https://img.shields.io/badge/typing-mypy%20strict-7C3AED.svg)](http://mypy-lang.org/)
 
